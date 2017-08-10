@@ -1,0 +1,17 @@
+public class Test {
+  public static void main(String[] args){ 
+  int i = j = k = 2;
+  System.out.println(i + "" + j + "" +k);
+  }
+} //这个是错误的
+
+//这个是正确的
+public class Test {
+  public static void main(String[] args){
+    int k,j,i; //这里先声明变量
+    i = j = k = 2;
+    System.out.println(i + "" + j + "" +k);
+    }
+}
+
+//两者区别在于第一个没有先声明变量 直接赋值 i，j不知何从来
