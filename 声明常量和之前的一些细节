@@ -1,0 +1,10 @@
+//一般声明常量的语法
+final datatype CONTANTNAME = value;
+
+
+//之前的一些细节
+
+//在计算时9/5 = 1 但是9.0/5 = 1.8
+//Scanner类 可以调用自己的方法 Ex:Scanner input = new Scanner(System.in);
+//double radius = input.nextDouble()
+//System.out.print()不会将光标移到下一行 println会
