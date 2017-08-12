@@ -1,0 +1,23 @@
+一个可以增加key和value的办法
+#setdefault(key[, default])
+#If key is in the dictionary, return its value. If not, insert key with a value of default and return default. default defaults to None.
+
+
+
+
+#解决 two sum的solution
+def two_sum(arr,targ):
+    look_for = {}
+    for n,x in enumerate(arr):
+        try:
+            return look_for[x] + 1, n + 1
+        except KeyError:
+            look_for.setdefault(targ - x,n) #增加key和value,targ - x 和 x就是一对
+
+a = (2,7,1,15)
+t = 9
+print(two_sum(a,t))  # (1,2)
+
+a = (-3,4,3,90)
+t = 0
+print(two_sum(a,t))
