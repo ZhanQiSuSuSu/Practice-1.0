@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class helloworld {
+	public static void main(String[] args) {
+	Scanner input = new Scanner(System.in);
+	System.out.println("Enter the second: ");
+	int s = input.nextInt();
+	int second = s % 60;
+	int m = s / 60 ; 
+	int h = s / 3600;
+	
+	System.out.println("The hour you have is "+ h +", the minute you have is "+m+"and the remain second is"+ second);
+ }
+}
