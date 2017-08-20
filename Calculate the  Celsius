@@ -1,0 +1,14 @@
+//一个float值有7到8位小数位， 一个double值有15到17位小数位。
+
+import java.util.Scanner;
+
+public class helloworld {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter the fahreheit: ");
+		int f = input.nextInt();
+		double c;
+		c = (5.0/9.0) * (f - 32);
+		System.out.print("The Celsius will be " + c);
+ }
+}
