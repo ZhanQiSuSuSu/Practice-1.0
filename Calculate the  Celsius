@@ -1,4 +1,5 @@
 //一个float值有7到8位小数位， 一个double值有15到17位小数位。
+//保留两位小数 String.format("%.2f",Varible)
 
 import java.util.Scanner;
 
