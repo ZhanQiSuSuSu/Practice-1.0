@@ -10,7 +10,7 @@ public class helloworld {
 	long totalminutes = totalseonds / 60 ;
 	long totalCurrentMinutes = totalminutes % 60 ;
 	
-	long totalhours = totalminutes / 60 ;
+	long totalhours = (totalminutes / 60 ) - 4;
 	long totalCurrenthours = totalhours % 24 ; 
 	
 	System.out.print("The Current time is "+ totalCurrenthours + " hours " + totalCurrentMinutes + " Minutes and " + totalCurrentSeconds + " seconds");
