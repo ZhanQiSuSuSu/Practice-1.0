@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class helloworld {
+	public static void main(String[] args) {
+	long totalMilliseconds = System.currentTimeMillis();
+	
+	long totalseonds = totalMilliseconds / 1000 ;
+	long totalCurrentSeconds = totalseonds % 60 ;
+	
+	long totalminutes = totalseonds / 60 ;
+	long totalCurrentMinutes = totalminutes % 60 ;
+	
+	long totalhours = totalminutes / 60 ;
+	long totalCurrenthours = totalhours % 24 ; 
+	
+	System.out.print("The Current time is "+ totalCurrenthours + " hours " + totalCurrentMinutes + " Minutes and " + totalCurrentSeconds + " seconds");
+ } 
+}
