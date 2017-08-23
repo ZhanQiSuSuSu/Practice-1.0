@@ -16,3 +16,4 @@ public class helloworld {
 	System.out.print("The Current time is "+ totalCurrenthours + " hours " + totalCurrentMinutes + " Minutes and " + totalCurrentSeconds + " seconds");
  } 
 }
+//只是关于除和求余罢了
